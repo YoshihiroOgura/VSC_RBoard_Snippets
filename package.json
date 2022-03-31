@@ -3,6 +3,7 @@
     "displayName": "RBoard Snippets",
     "description": "RBoard snippets",
     "version": "0.0.1",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.66.0"
     },
@@ -16,5 +17,9 @@
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YoshihiroOgura/VSC_RBoard_Snippets.git"
     }
 }

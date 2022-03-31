@@ -1,4 +1,4 @@
-# RBoard Snippet README
+# RBoard Snippet
 
 RBoard snippet for developing with VSCode. 
 
@@ -7,6 +7,6 @@ RBoard snippet for developing with VSCode.
 ![feature](images/feature.png)
 
 ## Release Notes
-### 1.0.0
+### 0.0.1
 
 mruby/c default class
