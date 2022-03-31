@@ -1,0 +1,20 @@
+{
+    "name": "rboard",
+    "displayName": "RBoard Snippets",
+    "description": "RBoard snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "ruby",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

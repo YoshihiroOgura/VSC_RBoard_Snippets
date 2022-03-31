@@ -1,0 +1,157 @@
+{
+  "HIGH status": {
+    "scope": "ruby",
+    "prefix": "HIGH",
+    "body": "1"
+  },
+  "LOW status": {
+    "scope": "ruby",
+    "prefix": "LOW",
+    "body": "0"
+  },
+  "pullup": {
+    "scope": "ruby",
+    "prefix": "pullup",
+    "body": "1"
+  },
+  "pulldown": {
+    "scope": "ruby",
+    "prefix": "pulldown",
+    "body": "-1"
+  },
+  "sleep": {
+    "scope": "ruby",
+    "prefix": "sleep",
+    "body": "sleep"
+  },
+  "puts": {
+    "scope": "ruby",
+    "prefix": "puts",
+    "body": "puts(${1:string data})"
+  },
+  "on board leds output": {
+    "scope": "ruby",
+    "prefix": "leds_write",
+    "body": "leds_write"
+  },
+  "on board switch": {
+    "scope": "ruby",
+    "prefix": "sw",
+    "body": "sw"
+  },
+  "GPIO class": {
+    "scope": "ruby",
+    "prefix": "GPIO",
+    "body": "GPIO"
+  },
+  "GPIO class new": {
+    "scope": "ruby",
+    "prefix": "GPIO.new",
+    "body": "GPIO.new(${1:pin number})"
+  },
+  "GPIO mode set": {
+    "scope": "ruby",
+    "prefix": "GPIO.setmode",
+    "body": ".setmode(${1:mode})"
+  },
+  "GPIO write": {
+    "scope": "ruby",
+    "prefix": "GPIO.write",
+    "body": ".write(${1:status})"
+  },
+  "GPIO read": {
+    "scope": "ruby",
+    "prefix": "GPIO.read",
+    "body": ".read()"
+  },
+  "ADC class new": {
+    "scope": "ruby",
+    "prefix": "ADC.new",
+    "body": "ADC.new(${1:pin number})"
+  },
+  "ADC read": {
+    "scope": "ruby",
+    "prefix": "ADC.read",
+    "body": ".read"
+  },
+  "I2C class new": {
+    "scope": "ruby",
+    "prefix": "I2C.new",
+    "body": "I2C.new"
+  },
+  "I2C write": {
+    "scope": "ruby",
+    "prefix": "I2C.write",
+    "body": ".write(${1:slave address}, ${2:memory address}, ${3:data})"
+  },
+  "I2C read": {
+    "scope": "ruby",
+    "prefix": "I2C.read",
+    "body": ".write(${1:slave address}, ${2:read size}, ${3:memory address})"
+  },
+  "PWM class new": {
+    "scope": "ruby",
+    "prefix": "PWM.new",
+    "body": "PWM.new(${1:pin number})"
+  },
+  "PWM frequency": {
+    "scope": "ruby",
+    "prefix": "PWM.frequency",
+    "body": ".frequency(${1:hertz})"
+  },
+  "PWM duty": {
+    "scope": "ruby",
+    "prefix": "PWM.duty",
+    "body": ".duty(${1:0-1023})"
+  },
+  "PWM period_us": {
+    "scope": "ruby",
+    "prefix": "PWM.period_us",
+    "body": ".period_us(${1:micro seconds})"
+  },
+  "UART class new": {
+    "scope": "ruby",
+    "prefix": "UART.new",
+    "body": "UART.new(${1:channel}, ${2:baud})"
+  },
+  "UART mode set": {
+    "scope": "ruby",
+    "prefix": "UART.set_modem_params",
+    "body": ".set_modem_params(${1:baud}, ${2:parity bit}, ${3:stop bit}, ${4:tx pin number}, ${5:rx pin number})"
+  },
+  "UART gets data": {
+    "scope": "ruby",
+    "prefix": "UART.gets",
+    "body": ".gets"
+  },
+  "UART write data": {
+    "scope": "ruby",
+    "prefix": "UART.write",
+    "body": ".write(${1:string data})"
+  },
+  "UART read data": {
+    "scope": "ruby",
+    "prefix": "UART.read",
+    "body": ".read(${1:data size})"
+  },
+  "UART read data have now": {
+    "scope": "ruby",
+    "prefix": "UART.read_nonblock",
+    "body": ".read_nonblock(${1:data size})"
+  },
+  "UART puts": {
+    "scope": "ruby",
+    "prefix": "UART.puts",
+    "body": ".puts(${1:string data})"
+  },
+  "UART clear read data buffer": {
+    "scope": "ruby",
+    "prefix": "UART.clear_rx_buffer",
+    "body": ".clear_rx_buffer"
+  },
+  "UART clear write data buffer": {
+    "scope": "ruby",
+    "prefix": "UART.clear_tx_buffer",
+    "body": ".clear_tx_buffer"
+  }
+}
